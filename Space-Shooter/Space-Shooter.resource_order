@@ -18,8 +18,11 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_enemy_octopus","order":2,"path":"sprites/spr_enemy_octopus/spr_enemy_octopus.yy",},
+    {"name":"spr_enemy_big_shot","order":3,"path":"sprites/spr_enemy_big_shot/spr_enemy_big_shot.yy",},
+    {"name":"spr_enemy_shot","order":4,"path":"sprites/spr_enemy_shot/spr_enemy_shot.yy",},
     {"name":"spr_player_shot","order":1,"path":"sprites/spr_player_shot/spr_player_shot.yy",},
     {"name":"obj_enemy_octopus","order":2,"path":"objects/obj_enemy_octopus/obj_enemy_octopus.yy",},
+    {"name":"obj_enemy_shot","order":3,"path":"objects/obj_enemy_shot/obj_enemy_shot.yy",},
     {"name":"obj_player_shot","order":1,"path":"objects/obj_player_shot/obj_player_shot.yy",},
   ],
 }

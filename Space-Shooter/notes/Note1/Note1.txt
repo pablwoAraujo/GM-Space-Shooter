@@ -23,5 +23,9 @@
 	4.2 - Fazendo o inimigo ir para baixo - [DONE]
 	
 5 - Fazendo o inimigo atirar
-	5.1 - Importar a sprite e criar o objeto do tiro - [TO DO]
-	5.2 - Fazer o tiro ir para baixo - [TO DO]
+	5.1 - Importar a sprite e criar o objeto do tiro - [DONE]
+	5.2 - Fazer o tiro ir para baixo - [DONE]
+	5.3 - Atirando de fato - [DONE]
+	5.4 - Dando o efeito no tiro - [DONE]
+	
+6 - Modularizar o código com funções
