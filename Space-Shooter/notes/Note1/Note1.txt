@@ -52,4 +52,10 @@
 10 - Pequenos ajustes 01 - [DONE]
 	10.1 - Destruindo os inimigos quando sairem da tela - [DONE]
 
-11 - Criando o backgound do jogo
+11 - Criando o backgound do jogo - [DONE]
+	11.1 - Importando a sprite do background - [DONE]
+	11.2 - Fazendo o background se movimentar na vertical - [DONE]
+	11.3 - Adicionando um efeito parallax - [DONE]
+		11.3.1 - Importando as sprites extras do background - [DONE]
+		11.3.2 - Criando as camadas extras da room - [DONE]
+
