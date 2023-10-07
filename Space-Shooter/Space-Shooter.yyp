@@ -49,6 +49,7 @@
     {"id":{"name":"spr_enemy_big_shot","path":"sprites/spr_enemy_big_shot/spr_enemy_big_shot.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_enemy_shot","path":"sprites/spr_enemy_shot/spr_enemy_shot.yy",},},
+    {"id":{"name":"spr_shot_glow","path":"sprites/spr_shot_glow/spr_shot_glow.yy",},},
     {"id":{"name":"spr_player_shot","path":"sprites/spr_player_shot/spr_player_shot.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"obj_enemy_octopus","path":"objects/obj_enemy_octopus/obj_enemy_octopus.yy",},},

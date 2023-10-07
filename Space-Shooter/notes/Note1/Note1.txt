@@ -51,6 +51,7 @@
 		
 10 - Pequenos ajustes 01 - [DONE]
 	10.1 - Destruindo os inimigos quando sairem da tela - [DONE]
+	10.2 - Deixando o tiro do player mais bonito - [DONE]
 
 11 - Criando o backgound do jogo - [DONE]
 	11.1 - Importando a sprite do background - [DONE]
