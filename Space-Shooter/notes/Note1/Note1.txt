@@ -1,3 +1,7 @@
 1 - Criando o nosso player [DOING]
 	1.1 - Importando a sprite do player - [DONE]
-	...
+	1.2 - Criando o obejto do player - [DONE]
+	1.3 - Adicionando o objeto na Room - [DONE]
+
+2 - Ajustando as dimensões da room e ajustando a view e a viewport da room [TODO]
+	2.1 
