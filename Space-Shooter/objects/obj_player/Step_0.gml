@@ -1,22 +1,12 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-// Movendo para cima
-if (keyboard_check(ord("W"))){
-	y -= player_speed;
-}
+var _up, _down, _left, _right;
 
-// Movendo para esquerda
-if (keyboard_check(ord("A"))){
-	x -= player_speed;
-}
+_up = keyboard_check(ord("W"));
+_left = keyboard_check(ord("A"));
+_down = keyboard_check(ord("S"));
+_right = keyboard_check(ord("D"));
 
-// Movendo para baixo
-if (keyboard_check(ord("S"))){
-	y += player_speed;
-}
-
-// Movendo para direita
-if (keyboard_check(ord("D"))){
-	x += player_speed;
-}
+y += (_down - _up) * player_speed;
+x += (_right - _left) * player_speed;
