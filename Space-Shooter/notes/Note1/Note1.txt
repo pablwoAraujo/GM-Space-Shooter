@@ -27,5 +27,9 @@
 	5.2 - Fazer o tiro ir para baixo - [DONE]
 	5.3 - Atirando de fato - [DONE]
 	5.4 - Dando o efeito no tiro - [DONE]
-	
+
 6 - Modularizar o código com funções
+	6.1 - Separando o código de atirar em uma função - [DONE]
+
+7 - Fazendo o tiro do player acertar o inimigo
+	7.1 - Fazer o tiro se destruir ao acertar o inimigo - [TO DO]
