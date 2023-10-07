@@ -19,5 +19,5 @@ x += (_right - _left) * player_speed;
 
 // Fazendo o player atirar 
 if (_fire) {
-	instance_create_layer(x, y - (sprite_height/2), "Shots", obj_player_shot);	
+	instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);	
 }

@@ -14,5 +14,9 @@
 	3.2 - Criando o objeto do tiro do player - [DONE]
 	3.3 - Fazendo o tiro ir pra cima - [DONE]
 	3.4 - Fazendo o player atirar quando apertar a tecla espaço - [DONE]
-	3.5 - Dando um efeito legal para o tiro - [TODO]
-		3.5.1 - Fazendo o tiro nascer grande e diminuir depois de um tempo [TODO]
+	3.5 - Dando um efeito legal para o tiro - [DONE]
+		3.5.1 - Fazendo o tiro nascer grande e diminuir depois de um tempo - [DONE]
+	3.6 - Destruindo a instância do tiro quando ele sair da room - [DONE]
+
+4 - Criando o primeiro inimigo
+	4.1 - Importando a sprite e criando o objeto - [TO DO]
