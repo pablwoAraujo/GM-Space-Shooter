@@ -3,5 +3,6 @@
 	1.2 - Criando o obejto do player - [DONE]
 	1.3 - Adicionando o objeto na Room - [DONE]
 
-2 - Ajustando as dimensões da room e ajustando a view e a viewport da room [TODO]
-	2.1 
+2 - Ajustando as dimensões da room e ajustando a view e a viewport da room [DONE]
+	2.1 - Criando uma Viewport e camera para o jogo - [DONE]
+	2.2 - Ajustando as dimensões para a view ser grande e a viewport menor - [DONE]
