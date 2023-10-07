@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description Iniciando as variáveis iniciais
 // Você pode escrever seu código neste editor
 
 shot_speed = -10;

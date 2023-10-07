@@ -32,4 +32,8 @@
 	6.1 - Separando o código de atirar em uma função - [DONE]
 
 7 - Fazendo o tiro do player acertar o inimigo
-	7.1 - Fazer o tiro se destruir ao acertar o inimigo - [TO DO]
+	7.1 - Fazer o tiro se destruir ao acertar o inimigo - [DONE]
+	7.2 - Criar o impacto do tiro - [DONE]
+	7.3 - Fazendo o impacto do tiro desaparecer no final da animação - [DONE]
+	7.4 - Fazer o tiro não criar o impacto quando sair da room - [DONE]
+
