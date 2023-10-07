@@ -16,4 +16,4 @@ var _b = irandom(255);
 var _rgb = make_color_rgb(_r, _g, _b);
 */
 
-selected_color = choose(c_yellow, c_red, c_fuchsia, c_lime, c_aqua, c_green, c_maroon, c_navy, c_olive)
+selected_color = choose(c_yellow, c_red, c_fuchsia, c_lime, c_aqua, c_green, c_maroon, c_navy, c_olive);

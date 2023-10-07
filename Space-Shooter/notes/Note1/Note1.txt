@@ -51,7 +51,12 @@
 		
 10 - Pequenos ajustes 01 - [DONE]
 	10.1 - Destruindo os inimigos quando sairem da tela - [DONE]
-	10.2 - Deixando o tiro do player mais bonito - [DONE]
+	10.2 - Deixando o tiro do player e do inimigo mais bonito - [DONE]
+		10.2.1 - Criar a sprite do brilho - [DONE]
+		10.2.2 - Criar o draw event - [DONE]
+		10.2.3 - Se desenhar e desenhar o brilho - [DONE]
+		10.2.4 - Usar o lerp para diminuir o tamanho do brilho - [DONE]
+	10.3 - Deixando as explosões mais bonitas - [TODO]
 
 11 - Criando o backgound do jogo - [DONE]
 	11.1 - Importando a sprite do background - [DONE]

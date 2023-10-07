@@ -1,7 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-// Desenhar o elemento na tela
 draw_self();
 
 // Alterando como o video trata as cores
@@ -9,7 +8,7 @@ gpu_set_blendmode(bm_add);
 
 // Desenhando o brilho
 draw_sprite_ext(
-	spr_player_shot_glow, 
+	spr_octopus_shot_glow, 
 	image_index, 
 	x, 
 	y, 
