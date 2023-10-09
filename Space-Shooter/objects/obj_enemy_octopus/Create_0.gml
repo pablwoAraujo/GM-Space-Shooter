@@ -16,3 +16,8 @@ fire = function() {
 }
 
 points_give = 10;
+
+// Se o inimigo nascer por cima de outro inimigo ele se destroi
+if (place_meeting(x, y, obj_enemy_octopus)) {
+	instance_destroy(id, false);	
+}

@@ -90,8 +90,13 @@
 14 - Criando um objeto controlador do jogo - [DONE]
 	14.1 - Adicionando ele na room - [DONE]
 
-15 - Criação procedural dos inimigos - [DOING]
+15 - Criação procedural dos inimigos - [DONE]
 	15.1 - Fazer com que o objeto controle crie inimigos de tempos em tempos - [DONE]
+	15.2 - Criando inimigos diferentes com base no nível do jogo - [DONE]
+	15.3 - Criando ONDAS de inimigos - [DONE]
+	15.4 - Criar novas ondas de inimigos apenas se não tiver mais inimigos na tela - [DONE]
+	15.5 - Criar a quantidade de inimigos com base no nível - [DONE]
+	15.6 - Impedir que os inimigos sejam criados um por cima do outro (no mesmo lugar) - [DONE]
 
 16 - Criando um sistema de pontos - [DONE]
 	16.1 - Iniciando a variável game_score - [DONE]
@@ -100,7 +105,7 @@
 		16.3.1 - Iniciar uma variável no create de cada objeto com os pontos que cada um vale - [DONE]
 	16.4 - Exibindo a pontuação na tela - [DONE]
 	
-17 - Criando um sistema de níveis - [DOING]
+17 - Criando um sistema de níveis - [DONE]
 	17.1 - Iniciando uma variável game_level - [DONE]
 	17.2 - Exibindo o nível na tela - [DONE]
 	17.3 - Passando de nível de acordo com a pontuação - [DONE]
