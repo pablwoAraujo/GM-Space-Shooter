@@ -1,9 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_slug",
+  "name": "obj_enemy_slug_shot",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
@@ -13,8 +12,8 @@
     "path": "folders/Objetos/enemy.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemy_octopus",
-    "path": "objects/obj_enemy_octopus/obj_enemy_octopus.yy",
+    "name": "obj_enemy_shot",
+    "path": "objects/obj_enemy_shot/obj_enemy_shot.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy_slug",
-    "path": "sprites/spr_enemy_slug/spr_enemy_slug.yy",
+    "name": "spr_enemy_big_shot",
+    "path": "sprites/spr_enemy_big_shot/spr_enemy_big_shot.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -28,6 +28,7 @@
     {"name":"spr_explosion","order":1,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"spr_extra_background_02","order":2,"path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},
     {"name":"spr_enemy_octopus","order":1,"path":"sprites/spr_enemy_octopus/spr_enemy_octopus.yy",},
+    {"name":"obj_enemy_slug_shot","order":3,"path":"objects/obj_enemy_slug_shot/obj_enemy_slug_shot.yy",},
     {"name":"spr_enemy_shot","order":2,"path":"sprites/spr_enemy_shot/spr_enemy_shot.yy",},
     {"name":"spr_player_shot_glow","order":2,"path":"sprites/spr_player_shot_glow/spr_player_shot_glow.yy",},
     {"name":"spr_enemy_slug","order":3,"path":"sprites/spr_enemy_slug/spr_enemy_slug.yy",},

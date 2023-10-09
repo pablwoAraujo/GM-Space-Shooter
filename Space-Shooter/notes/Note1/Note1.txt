@@ -70,8 +70,18 @@
 		11.3.1 - Importando as sprites extras do background - [DONE]
 		11.3.2 - Criando as camadas extras da room - [DONE]
 
-12 - Criando o segundo inimigo do jogo
+12 - Criando o segundo inimigo do jogo - [DONE]
 	12.1 - Importando a sprite - [DONE]
 	12.2 - Criando o objeto - [DONE]
 	12.3 - Fazendo o inimigo dois herdar os comportamentos do inimigo um - [DONE]
+	12.4 - Fazendo o inimigo mudar de direção se ele passar por 1/3 da room - [DONE]
+		12.4.1 - Checando de que lado da room ele esta - [DONE]
+	12.5 - Fazendo ele mudar de direção apenas uma vez - [DONE]
 	
+13 - Criando o segundo tiro do inimigo - [TODO]
+	13.1 - Importando a sprite e criando o objeto - [DONE]
+	13.2 - Fazer ele herdar do tiro um - [DONE]
+	13.3 - Fazendo o novo inimigo criar o segundo tiro - [DONE]
+		13.3.1 - Sobrescrevendo a função de atirar do inimigo octopus no inimigo slug - [DONE
+	13.4 - Fazer o tiro ir na direção do player - [DONE]
+	13.5 - Rotacionar o tiro para acompanhar a direção do movimento - [DONE]
