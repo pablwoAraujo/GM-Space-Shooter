@@ -97,5 +97,11 @@
 	16.1 - Iniciando a variável game_score - [DONE]
 	16.2 - Ganhando pontos ao destruir os inimigos - [DONE]
 	16.3 - Fazendo com que inimigos diferentes deem pontuações diferentes - [DONE]
-		16.4 - Iniciar uma variável no create de cada objeto com os pontos que cada um vale - [DONE]
+		16.3.1 - Iniciar uma variável no create de cada objeto com os pontos que cada um vale - [DONE]
+	16.4 - Exibindo a pontuação na tela - [DONE]
 	
+17 - Criando um sistema de níveis - [DOING]
+	17.1 - Iniciando uma variável game_level - [DONE]
+	17.2 - Exibindo o nível na tela - [DONE]
+	17.3 - Passando de nível de acordo com a pontuação - [DONE]
+	17.4 - Dobrando a quantidade de pontos necessários para passar de nível quando alcançar - [DONE]
