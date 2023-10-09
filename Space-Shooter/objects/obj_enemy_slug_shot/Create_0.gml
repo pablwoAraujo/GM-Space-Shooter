@@ -7,8 +7,11 @@ event_inherited();
 // Definindo a velocidade
 speed = 6;
 
-// Encontrando a direção do player
-direction = point_direction(x, y, obj_player.x, obj_player.y);
+// Checando se o player existe
+if (instance_exists(obj_player)) {
+	// Encontrando a direção do player
+	direction = point_direction(x, y, obj_player.x, obj_player.y);
+}
 
 // OBS: Como a sprite esta apontando para baixo, temos duas opções:
 // 1# Rotacionar a sprite em 90 graus para que a rotação dela seja de 0 graus

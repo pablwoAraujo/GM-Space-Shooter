@@ -15,4 +15,6 @@ if (y  > room_height/3){
 }
 
 // Fazendo o inimigo acompanhar o player
-image_angle = lerp(image_angle, point_direction(x, y, obj_player.x, obj_player.y),1)+90;
+if (instance_exists(obj_player)) {
+	image_angle = lerp(image_angle, point_direction(x, y, obj_player.x, obj_player.y), 1) + 90;	
+}
