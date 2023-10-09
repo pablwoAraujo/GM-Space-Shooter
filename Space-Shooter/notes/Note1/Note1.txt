@@ -69,3 +69,9 @@
 	11.3 - Adicionando um efeito parallax - [DONE]
 		11.3.1 - Importando as sprites extras do background - [DONE]
 		11.3.2 - Criando as camadas extras da room - [DONE]
+
+12 - Criando o segundo inimigo do jogo
+	12.1 - Importando a sprite - [DONE]
+	12.2 - Criando o objeto - [DONE]
+	12.3 - Fazendo o inimigo dois herdar os comportamentos do inimigo um - [DONE]
+	

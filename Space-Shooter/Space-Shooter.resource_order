@@ -24,11 +24,13 @@
     {"name":"player","order":7,"path":"folders/Sprites/player.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_enemy_slug","order":2,"path":"objects/obj_enemy_slug/obj_enemy_slug.yy",},
     {"name":"spr_explosion","order":1,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"spr_extra_background_02","order":2,"path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},
     {"name":"spr_enemy_octopus","order":1,"path":"sprites/spr_enemy_octopus/spr_enemy_octopus.yy",},
     {"name":"spr_enemy_shot","order":2,"path":"sprites/spr_enemy_shot/spr_enemy_shot.yy",},
     {"name":"spr_player_shot_glow","order":2,"path":"sprites/spr_player_shot_glow/spr_player_shot_glow.yy",},
+    {"name":"spr_enemy_slug","order":3,"path":"sprites/spr_enemy_slug/spr_enemy_slug.yy",},
     {"name":"spr_player_shot","order":1,"path":"sprites/spr_player_shot/spr_player_shot.yy",},
     {"name":"obj_enemy_shot","order":1,"path":"objects/obj_enemy_shot/obj_enemy_shot.yy",},
     {"name":"obj_player_shot","order":1,"path":"objects/obj_player_shot/obj_player_shot.yy",},

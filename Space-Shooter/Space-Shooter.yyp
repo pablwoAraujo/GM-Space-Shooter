@@ -41,6 +41,7 @@
     "IDEVersion": "2023.8.2.106",
   },
   "resources": [
+    {"id":{"name":"obj_enemy_slug","path":"objects/obj_enemy_slug/obj_enemy_slug.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
     {"id":{"name":"spr_extra_background_02","path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},},
     {"id":{"name":"spr_shot_impact","path":"sprites/spr_shot_impact/spr_shot_impact.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_enemy_shot","path":"sprites/spr_enemy_shot/spr_enemy_shot.yy",},},
     {"id":{"name":"spr_player_shot_glow","path":"sprites/spr_player_shot_glow/spr_player_shot_glow.yy",},},
+    {"id":{"name":"spr_enemy_slug","path":"sprites/spr_enemy_slug/spr_enemy_slug.yy",},},
     {"id":{"name":"spr_player_shot","path":"sprites/spr_player_shot/spr_player_shot.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"obj_enemy_octopus","path":"objects/obj_enemy_octopus/obj_enemy_octopus.yy",},},
