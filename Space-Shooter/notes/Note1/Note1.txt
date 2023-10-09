@@ -56,7 +56,12 @@
 		10.2.2 - Criar o draw event - [DONE]
 		10.2.3 - Se desenhar e desenhar o brilho - [DONE]
 		10.2.4 - Usar o lerp para diminuir o tamanho do brilho - [DONE]
-	10.3 - Deixando as explosões mais bonitas - [TODO]
+	10.3 - Deixando as explosões mais bonitas - [DONE]
+		10.3.1 - Criar o Draw event - [DONE]
+		10.3.2 - Se desenhar - [DONE]
+		10.3.3 - Desenhar a explosão um pouco maior (efeito de brilho) - [DONE]
+		10.3.4 - Alterar como a GPU processa a mistura de cores - [DONE]
+		10.3.5 - Criar a variável de cor - [DONE]
 
 11 - Criando o backgound do jogo - [DONE]
 	11.1 - Importando a sprite do background - [DONE]
@@ -64,4 +69,3 @@
 	11.3 - Adicionando um efeito parallax - [DONE]
 		11.3.1 - Importando as sprites extras do background - [DONE]
 		11.3.2 - Criando as camadas extras da room - [DONE]
-
