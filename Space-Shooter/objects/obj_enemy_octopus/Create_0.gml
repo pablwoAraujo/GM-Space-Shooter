@@ -14,3 +14,5 @@ fire = function() {
 		instance_create_layer(x - 3, y + (sprite_height/3), "Shots", obj_enemy_shot);
 	}
 }
+
+points_give = 10;

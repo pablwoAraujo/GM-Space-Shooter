@@ -93,3 +93,9 @@
 15 - Criação procedural dos inimigos - [DOING]
 	15.1 - Fazer com que o objeto controle crie inimigos de tempos em tempos - [DONE]
 
+16 - Criando um sistema de pontos - [DONE]
+	16.1 - Iniciando a variável game_score - [DONE]
+	16.2 - Ganhando pontos ao destruir os inimigos - [DONE]
+	16.3 - Fazendo com que inimigos diferentes deem pontuações diferentes - [DONE]
+		16.4 - Iniciar uma variável no create de cada objeto com os pontos que cada um vale - [DONE]
+	
