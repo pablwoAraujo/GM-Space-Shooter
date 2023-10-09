@@ -86,3 +86,10 @@
 	13.4 - Fazer o tiro ir na direção do player - [DONE]
 	13.5 - Rotacionar o tiro para acompanhar a direção do movimento - [DONE]
 	13.6 - Indo para direção do player APENAS se o player existir na room - [DONE]
+
+14 - Criando um objeto controlador do jogo - [DONE]
+	14.1 - Adicionando ele na room - [DONE]
+
+15 - Criação procedural dos inimigos - [DOING]
+	15.1 - Fazer com que o objeto controle crie inimigos de tempos em tempos - [DONE]
+

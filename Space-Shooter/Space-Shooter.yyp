@@ -43,6 +43,7 @@
   "resources": [
     {"id":{"name":"obj_enemy_slug","path":"objects/obj_enemy_slug/obj_enemy_slug.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"spr_extra_background_02","path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},},
     {"id":{"name":"spr_shot_impact","path":"sprites/spr_shot_impact/spr_shot_impact.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
