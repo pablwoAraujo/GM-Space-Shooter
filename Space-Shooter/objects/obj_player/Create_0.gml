@@ -26,9 +26,14 @@ fire = function() {
 			instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);
 		} else if (shot_level == 2){
 			fire_shot_level_two();
-		} else {
+		} else if (shot_level == 3) {
 			fire_shot_level_two();
 			instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);
+		} else if (shot_level == 4) {
+			fire_shot_level_four();
+		} else {
+			fire_shot_level_two();
+			fire_shot_level_four();
 		}
 	}
 }
@@ -41,4 +46,20 @@ fire_shot_level_two = function(){
 	// Disparo da direita
 	var _right_shot = instance_create_layer(x + 45, y - (sprite_height/3), "Shots", obj_player_shot_level_2);
 	_right_shot.hspeed = 3;	
+}
+
+// Dispara o tiro de nível quatro
+fire_shot_level_four = function(){
+	// Define o ângulo do tiro mais a direita
+	var _angle = 75;
+	// Cria o tiro três vezes
+	repeat(3){
+		var _shot = instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);
+		// Aponta o tiro para a direção correta
+		_shot.direction = _angle;
+		// Rotaciona a sprite no ângulo correto
+		_shot.image_angle = _shot.direction + 90;
+		// Incrementa a ângulo do movimento para os próximos disparos
+		_angle += 15;
+	}
 }
