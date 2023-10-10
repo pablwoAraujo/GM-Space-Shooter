@@ -24,13 +24,21 @@ fire = function() {
 		// Criando o tiro
 		if (shot_level == 1) {
 			instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);
+		} else if (shot_level == 2){
+			fire_shot_level_two();
 		} else {
-			// Disparo da esquerda
-			var _left_shot = instance_create_layer(x - 35, y - (sprite_height/3), "Shots", obj_player_shot_level_2);
-			_left_shot.hspeed = -3;
-			// Disparo da direita
-			var _right_shot = instance_create_layer(x + 35, y - (sprite_height/3), "Shots", obj_player_shot_level_2);
-			_right_shot.hspeed = 3;
+			fire_shot_level_two();
+			instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);
 		}
 	}
+}
+
+// Dispara o tiro de nível dois
+fire_shot_level_two = function(){
+	// Disparo da esquerda
+	var _left_shot = instance_create_layer(x - 45, y - (sprite_height/3), "Shots", obj_player_shot_level_2);
+	_left_shot.hspeed = -3;
+	// Disparo da direita
+	var _right_shot = instance_create_layer(x + 45, y - (sprite_height/3), "Shots", obj_player_shot_level_2);
+	_right_shot.hspeed = 3;	
 }

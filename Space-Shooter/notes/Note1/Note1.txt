@@ -126,4 +126,5 @@
 20 - Criando um sistema de níveis/upgrades para o tiro do player - [DOING]
 	20.2 - Fazendo o player ganhar nível no tiro - [DONE]
 	20.1 - Fazendo o player da o segundo tiro no nível dois - [DONE]
-	20.2 - Criando o tiro de nível 3 - [TODO]
+	20.2 - Criando o tiro de nível 3 - [DONE]
+	20.2 - Criando o tiro de nível 4 - [TODO]
