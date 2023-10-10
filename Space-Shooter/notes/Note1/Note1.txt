@@ -110,3 +110,8 @@
 	17.2 - Exibindo o nível na tela - [DONE]
 	17.3 - Passando de nível de acordo com a pontuação - [DONE]
 	17.4 - Dobrando a quantidade de pontos necessários para passar de nível quando alcançar - [DONE]
+
+18 - Criando um cooldown (tempo de espera) para o tiro do player - [DONE]
+	18.1 - Criar o evento para o tiro - [DONE]
+
+19 - Criando um sistema de níveis/upgrades para o tiro do player - [TODO]
