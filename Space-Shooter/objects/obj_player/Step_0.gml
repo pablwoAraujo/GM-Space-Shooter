@@ -16,3 +16,12 @@ x += (_right - _left) * player_speed;
 
 // Fazendo o player atirar 
 fire();
+
+if (keyboard_check_pressed(vk_up)) {
+	shot_level += 1;
+}
+
+
+if (keyboard_check_pressed(vk_down)) {
+	shot_level -= 1;
+}

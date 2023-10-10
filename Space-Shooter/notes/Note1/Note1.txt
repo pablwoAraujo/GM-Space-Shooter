@@ -113,5 +113,17 @@
 
 18 - Criando um cooldown (tempo de espera) para o tiro do player - [DONE]
 	18.1 - Criar o evento para o tiro - [DONE]
-
-19 - Criando um sistema de níveis/upgrades para o tiro do player - [TODO]
+	
+19 - Criando o segundo tiro do player - [DONE]
+	19.1 - Importando a sprite e criando o objeto - [DONE]
+	19.2 - Herdar o comportamento do tiro um - [DONE]
+	19.3 - Ajustando o brilho do trilho - [DONE]
+	19.4 - Criando dois tiros por vez - [DONE]
+	19.5 - Fazendo o tiro mudar de direção - [DONE]
+		19.5.1 - Fazendo o tiro ganhar uma direção horizontal - [DONE]
+		19.5.2 - Fazendo o tiro inverter a direção horizontal - [DONE]
+	
+20 - Criando um sistema de níveis/upgrades para o tiro do player - [DOING]
+	20.2 - Fazendo o player ganhar nível no tiro - [DONE]
+	20.1 - Fazendo o player da o segundo tiro no nível dois - [DONE]
+	20.2 - Criando o tiro de nível 3 - [TODO]

@@ -4,8 +4,11 @@
 // Velocidade do player
 player_speed = 5;
 
-// Tempo de recarga do tiro
+// Tempo de recarga do tiro do player
 shot_cooldown = 60;
+
+// Nível do tiro do player
+shot_level = 1;
 
 // Atirando
 fire = function() {
@@ -19,6 +22,15 @@ fire = function() {
 		alarm[0] = shot_cooldown;
 		
 		// Criando o tiro
-		instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);
+		if (shot_level == 1) {
+			instance_create_layer(x, y - (sprite_height/3), "Shots", obj_player_shot);
+		} else {
+			// Disparo da esquerda
+			var _left_shot = instance_create_layer(x - 35, y - (sprite_height/3), "Shots", obj_player_shot_level_2);
+			_left_shot.hspeed = -3;
+			// Disparo da direita
+			var _right_shot = instance_create_layer(x + 35, y - (sprite_height/3), "Shots", obj_player_shot_level_2);
+			_right_shot.hspeed = 3;
+		}
 	}
 }

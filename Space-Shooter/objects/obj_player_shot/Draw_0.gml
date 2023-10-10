@@ -9,7 +9,7 @@ gpu_set_blendmode(bm_add);
 
 // Desenhando o brilho
 draw_sprite_ext(
-	spr_player_shot_glow, 
+	shot_glow, 
 	image_index, 
 	x, 
 	y, 

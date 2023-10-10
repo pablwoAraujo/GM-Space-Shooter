@@ -7,6 +7,9 @@ vspeed = shot_speed;
 image_xscale = 3;
 image_yscale = 3;
 
+// Imagem do efeito "brilho" do tiro
+shot_glow = spr_player_shot_glow;
+
 // Alterando as cores
 
 /*
