@@ -16,3 +16,5 @@ fire = function() {
 }
 
 points_give = 20;
+
+chance_to_drop_item = 30;

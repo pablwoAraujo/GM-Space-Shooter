@@ -63,3 +63,21 @@ fire_shot_level_four = function(){
 		_angle += 15;
 	}
 }
+
+// Método de dar power ups para o player
+// o tiro do player varia de 1 a 5, aumentando 1 por vez
+// o tempo de espera entre cada tiro varia de 60 a 20, diminuindo 4 por vez
+// velocidade varia de 5 a 10, aumentando 0.5 por vez
+///@method upgrade(value)
+upgrade = function(_value){
+	if (_value > 90) {
+		// Aumentando o nível do tiro se ele for menor que 5
+		if (shot_level < 5) shot_level++;
+	} else if (_value > 45) {
+		// Diminuindo o cooldown do tiro, se ele for maior que 20
+		if (shot_cooldown > 20) shot_cooldown -= 4;
+	} else {
+		// Aumentando a velocidade do player se ela for menor que 10
+		if (player_speed < 10 ) player_speed += 0.5;
+	}
+}

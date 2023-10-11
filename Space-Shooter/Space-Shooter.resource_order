@@ -12,6 +12,7 @@
     {"name":"enemy","order":4,"path":"folders/Objetos/enemy.yy",},
     {"name":"others","order":7,"path":"folders/Objetos/others.yy",},
     {"name":"player","order":5,"path":"folders/Objetos/player.yy",},
+    {"name":"power_up","order":9,"path":"folders/Objetos/power_up.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sequências","order":11,"path":"folders/Sequências.yy",},
@@ -22,6 +23,7 @@
     {"name":"enemy","order":6,"path":"folders/Sprites/enemy.yy",},
     {"name":"others","order":5,"path":"folders/Sprites/others.yy",},
     {"name":"player","order":7,"path":"folders/Sprites/player.yy",},
+    {"name":"power_up","order":9,"path":"folders/Sprites/power_up.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_enemy_slug","order":2,"path":"objects/obj_enemy_slug/obj_enemy_slug.yy",},
@@ -29,6 +31,7 @@
     {"name":"obj_control","order":8,"path":"objects/obj_control/obj_control.yy",},
     {"name":"spr_extra_background_02","order":2,"path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},
     {"name":"spr_enemy_octopus","order":1,"path":"sprites/spr_enemy_octopus/spr_enemy_octopus.yy",},
+    {"name":"obj_view_statics","order":10,"path":"objects/obj_view_statics/obj_view_statics.yy",},
     {"name":"obj_enemy_slug_shot","order":3,"path":"objects/obj_enemy_slug_shot/obj_enemy_slug_shot.yy",},
     {"name":"spr_enemy_shot","order":2,"path":"sprites/spr_enemy_shot/spr_enemy_shot.yy",},
     {"name":"spr_player_shot_glow","order":2,"path":"sprites/spr_player_shot_glow/spr_player_shot_glow.yy",},
