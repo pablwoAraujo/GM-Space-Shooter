@@ -164,3 +164,7 @@
 	22.8 - Melhorando o efeito no escudo - [DONE]
 		22.8.1 - Adicionando uma transparência - [DONE]
 		22.8.2 - Adicionando um blendmode - [DONE]
+
+23 - Ajustes gerais
+	23.1 - Arrumando as mascaras de colisão - [DONE]
+	23.2 - Fazendo o player colidir com os inimigos - [DONE]
