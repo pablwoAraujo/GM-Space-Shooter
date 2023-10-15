@@ -24,3 +24,5 @@ x += (_right - _left) * player_speed;
 
 // Fazendo o player atirar 
 fire();
+
+show_debug_message(life);

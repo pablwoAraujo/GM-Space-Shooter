@@ -165,6 +165,14 @@
 		22.8.1 - Adicionando uma transparência - [DONE]
 		22.8.2 - Adicionando um blendmode - [DONE]
 
-23 - Ajustes gerais
+23 - Ajustes gerais - [DONE]
 	23.1 - Arrumando as mascaras de colisão - [DONE]
 	23.2 - Fazendo o player colidir com os inimigos - [DONE]
+	
+24 - Fazendo o player morrer - [DOING]
+	24.1 - Dando vidas para o player - [DONE]
+	24.2 - Criando o método take_damage - [DONE]
+	24.3 - Fazendo o player explodir se a vida for menor ou igual a zero - [DONE]
+	24.4 - Exibindo a vida do player na tela (GUI) - [DONE]
+	24.5 - Fazendo o player perder vida quando bater no inimigo - [DONE]
+	24.6 - Criando uma tela de game over quando o jogador perder - [TODO]

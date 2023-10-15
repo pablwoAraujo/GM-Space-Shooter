@@ -10,6 +10,9 @@ shot_cooldown = 60;
 // Nível do tiro do player
 shot_level = 1;
 
+// Vida
+life = 3;
+
 // Atirando
 fire = function() {
 	// Carregando a variável de tiro
@@ -79,5 +82,14 @@ upgrade = function(_value){
 	} else {
 		// Aumentando a velocidade do player se ela for menor que 10
 		if (player_speed < 10 ) player_speed += 0.5;
+	}
+}
+
+///@method take_damage();
+take_damage = function(){
+	if (life > 1) {
+		life --;	
+	} else {	
+		instance_destroy();	
 	}
 }

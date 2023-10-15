@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 // Se ele não tiver um alvo ele se autodestroi
-if (!target) {
+if (!target or !instance_exists(target)) {
 	instance_destroy(id, false);
 }
 

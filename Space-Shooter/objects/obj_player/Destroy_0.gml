@@ -1,8 +1,5 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-// Se destruindo
-instance_destroy();
-
-// Dando dano no player
-other.take_damage();
+// Criando a explosão
+instance_create_layer(x, y, layer, obj_explosion);
