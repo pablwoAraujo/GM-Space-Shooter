@@ -39,6 +39,7 @@
     {"name":"obj_shield","order":1,"path":"objects/obj_shield/obj_shield.yy",},
     {"name":"spr_player_shot","order":1,"path":"sprites/spr_player_shot/spr_player_shot.yy",},
     {"name":"obj_enemy_shot","order":1,"path":"objects/obj_enemy_shot/obj_enemy_shot.yy",},
+    {"name":"spr_game_over","order":4,"path":"sprites/spr_game_over/spr_game_over.yy",},
     {"name":"spr_shield","order":1,"path":"sprites/spr_shield/spr_shield.yy",},
     {"name":"spr_player_shot_level_2","order":2,"path":"sprites/spr_player_shot_level_2/spr_player_shot_level_2.yy",},
     {"name":"obj_player_shot","order":1,"path":"objects/obj_player_shot/obj_player_shot.yy",},

@@ -11,6 +11,9 @@ game_points_per_level = 100;
 // Criando o sistema de pontos
 game_score = 0;
 
+// Variável de controle para a sequencia de gameover
+ctr_seq_gameover = noone;
+
 // Criando a função para atribuir os pontos
 ///@method add_points(points)
 add_points = function(_points){ 
