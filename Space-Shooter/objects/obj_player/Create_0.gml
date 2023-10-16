@@ -13,6 +13,9 @@ shot_level = 1;
 // Vida
 life = 3;
 
+// Quantidade de escudos
+shields = 3;
+
 // Atirando
 fire = function() {
 	// Carregando a variável de tiro
@@ -69,6 +72,7 @@ fire_shot_level_four = function(){
 
 // Método de dar power ups para o player
 // o tiro do player varia de 1 a 5, aumentando 1 por vez
+// a quantidade de escudos aumenta de um em um, o máximo de escudos é três
 // o tempo de espera entre cada tiro varia de 60 a 20, diminuindo 4 por vez
 // velocidade varia de 5 a 10, aumentando 0.5 por vez
 ///@method upgrade(value)
@@ -76,7 +80,10 @@ upgrade = function(_value){
 	if (_value > 90) {
 		// Aumentando o nível do tiro se ele for menor que 5
 		if (shot_level < 5) shot_level++;
-	} else if (_value > 45) {
+	} else if (_value > 80) {
+		// Ganha mais um escudo (max 3)
+		if (shields < 3) shields++;
+	} else if (_value > 40) {
 		// Diminuindo o cooldown do tiro, se ele for maior que 20
 		if (shot_cooldown > 20) shot_cooldown -= 4;
 	} else {

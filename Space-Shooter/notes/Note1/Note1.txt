@@ -164,10 +164,17 @@
 	22.8 - Melhorando o efeito no escudo - [DONE]
 		22.8.1 - Adicionando uma transparência - [DONE]
 		22.8.2 - Adicionando um blendmode - [DONE]
+	22.9 - Limitando a quantidade de escudos do player - [DONE]
+		22.9.1 - Criando a variável para controlar a quantidade de escudos - [DONE]
+		22.9.2 - Verificar a variável antes de criar o escudo - [DONE]
+	22.10 - Criando um powerup que dropa um escudo a mais - [DONE]
+	22.11 - Exibindo os escudos na tela - [DONE]
 
 23 - Ajustes gerais - [DONE]
 	23.1 - Arrumando as mascaras de colisão - [DONE]
 	23.2 - Fazendo o player colidir com os inimigos - [DONE]
+	23.3 - Ajustando a transparência do powerup - [DONE]
+	23.4 - Melhorando a dispersão dos inimigos conforme o nível - [DONE]
 	
 24 - Fazendo o player morrer - [DONE]
 	24.1 - Dando vidas para o player - [DONE]
@@ -180,3 +187,5 @@
 		24.6.2 - Criando uma sequência e brincando com a edição da sprite - [DONE]
 		24.6.4 - Instanciando a sequência na room quando o player perder - [DONE]
 	24.7 - Reiniciar ao apertar ENTER - [DONE]
+	
+25 - Screenshake! - [TODO]

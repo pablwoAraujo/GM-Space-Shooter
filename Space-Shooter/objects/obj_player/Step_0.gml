@@ -12,10 +12,12 @@ _right = keyboard_check(ord("D"));
 _shield = keyboard_check_pressed(ord("E"));
 
 // Criando o escudo
-if (_shield){
+if (_shield and shields > 0){
 	var _player_shield = instance_create_layer(x, y, "Shield", obj_shield);
 	// Definindo o target do escudo
 	_player_shield.target = id;
+	// Diminuindo a quantidade de escudos disponíveis
+	shields --;
 }
 
 // Realizando a movimentação

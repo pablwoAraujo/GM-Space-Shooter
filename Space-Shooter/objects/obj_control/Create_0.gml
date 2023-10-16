@@ -29,7 +29,8 @@ add_points = function(_points){
 spawn_enemy = function(){
 	// Criando as coordenadas do spawn aleatoriamente
 	var _x_coordinate = irandom_range(64, room_width - 64);
-	var _y_coordinate = irandom_range(-96, - room_height);
+	// Aumentando o range conforme o nível do jogo
+	var _y_coordinate = irandom_range(-96, - room_height - (game_level * 500));
 
 	// Criando o inimigo com base no nível
 	// Quanto maior o nível maior a probabilidade de vir um inimigo tipo 2 (slug)
