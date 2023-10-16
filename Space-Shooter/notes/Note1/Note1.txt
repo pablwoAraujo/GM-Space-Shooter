@@ -188,4 +188,11 @@
 		24.6.4 - Instanciando a sequência na room quando o player perder - [DONE]
 	24.7 - Reiniciar ao apertar ENTER - [DONE]
 	
-25 - Screenshake! - [TODO]
+25 - Screenshake! - [DONE]
+	25.1 - Criar um objeto para fazer o screenshake - [DONE]
+	25.2 - Fazendo a tela tremer - [DONE]
+	25.3 - Enfraquecendo e destruindo o screenshake com o tempo - [DONE]
+	25.4 - Voltando a posição do viewport para a origem - [DONE]
+	25.5 - Criando um screenshake toda vez que destruir um inimigo - [DONE]
+	25.6 - Criando um screenshake quando sofrer dano - [DONE]
+	25.7 - Criando uma função para que qualquer parte do código possa criar um screenshake - [DONE]

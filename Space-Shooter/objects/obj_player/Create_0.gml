@@ -94,6 +94,9 @@ upgrade = function(_value){
 
 ///@method take_damage();
 take_damage = function(){
+	// Criando o screenshake ao tomar dano
+	screenshake(10);
+
 	if (life > 1) {
 		life --;	
 	} else {	

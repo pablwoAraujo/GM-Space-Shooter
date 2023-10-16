@@ -47,5 +47,6 @@
     {"name":"obj_player_shot_level_2","order":2,"path":"objects/obj_player_shot_level_2/obj_player_shot_level_2.yy",},
     {"name":"obj_explosion","order":1,"path":"objects/obj_explosion/obj_explosion.yy",},
     {"name":"spr_extra_background_01","order":1,"path":"sprites/spr_extra_background_01/spr_extra_background_01.yy",},
+    {"name":"obj_screenshake","order":11,"path":"objects/obj_screenshake/obj_screenshake.yy",},
   ],
 }

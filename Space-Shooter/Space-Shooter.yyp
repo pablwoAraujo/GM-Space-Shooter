@@ -45,6 +45,7 @@
   "resources": [
     {"id":{"name":"obj_enemy_slug","path":"objects/obj_enemy_slug/obj_enemy_slug.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
+    {"id":{"name":"screenshake","path":"scripts/screenshake/screenshake.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"spr_extra_background_02","path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},},
     {"id":{"name":"spr_shot_impact","path":"sprites/spr_shot_impact/spr_shot_impact.yy",},},
@@ -75,6 +76,7 @@
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
     {"id":{"name":"spr_extra_background_01","path":"sprites/spr_extra_background_01/spr_extra_background_01.yy",},},
+    {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

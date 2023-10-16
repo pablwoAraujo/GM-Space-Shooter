@@ -11,3 +11,6 @@ if (instance_exists(obj_control)){
 
 // Dropando um power up ou não
 drop_item(chance_to_drop_item);
+
+// Criando o screenshake ao ser destruído
+screenshake(10);
