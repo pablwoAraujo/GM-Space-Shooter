@@ -4,3 +4,9 @@ function screenshake(_intensity){
 	var _shake = instance_create_layer(0, 0, "Shield", obj_screenshake);
 	_shake.intensity = _intensity; 
 }
+
+function giving_points(_points){
+	if (instance_exists(obj_control)) {
+		obj_control.add_points(_points);	
+	}
+}

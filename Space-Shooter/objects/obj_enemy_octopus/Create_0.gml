@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 // Chance de dropar um power up
-chance_to_drop_item = 100;
+chance_to_drop_item = 20;
 
 // Velocidade vertical do inimigo
 vspeed = 3;
@@ -30,7 +30,7 @@ if (place_meeting(x, y, obj_enemy_octopus)) {
 drop_item = function(_chance){
 	var _value = irandom(100);
 	
-	if (_value <= _chance){
+	if (_value <= _chance && y >= 96){
 		instance_create_layer(x, y, "Shots", obj_power_up);
 	}
 }

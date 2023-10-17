@@ -196,3 +196,10 @@
 	25.5 - Criando um screenshake toda vez que destruir um inimigo - [DONE]
 	25.6 - Criando um screenshake quando sofrer dano - [DONE]
 	25.7 - Criando uma função para que qualquer parte do código possa criar um screenshake - [DONE]
+
+26 - Ajustes gerais - [DONE]
+	26.1 - Randomizando o jogo - [DONE]
+	26.2 - Impedindo o player de sair da tela - [DONE]
+	26.3 - Fazendo os inimigos droparem item depois de certa altura - [DONE]
+	26.4 - Aumentando a quantidade de pontos (subir de nível mais rápido) - [DONE]
+	26.5 - Ganhar pontos caso os powerups já estejam no nível máximo - [DONE]

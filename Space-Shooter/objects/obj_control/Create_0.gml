@@ -1,6 +1,9 @@
 /// @description Iniciando
 // Você pode escrever seu código neste editor
 
+// Randomizando o jogo
+randomize();
+
 // Iniciando a criação dos inimigos
 alarm[0] = 60;
 
@@ -17,7 +20,7 @@ ctr_seq_gameover = noone;
 // Criando a função para atribuir os pontos
 ///@method add_points(points)
 add_points = function(_points){ 
-	game_score += _points;	
+	game_score += _points * game_level;	
 	if (game_score > game_points_per_level){
 		game_level +=1;
 		game_points_per_level *= 2;

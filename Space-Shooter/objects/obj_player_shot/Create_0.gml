@@ -1,7 +1,7 @@
 /// @description Iniciando as variáveis iniciais
 // Você pode escrever seu código neste editor
 
-shot_speed = -10;
+shot_speed = -15;
 vspeed = shot_speed;
 
 image_xscale = 3;
