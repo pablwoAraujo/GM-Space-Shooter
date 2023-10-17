@@ -30,5 +30,3 @@ y = clamp(y, 64, 1024);
 
 // Fazendo o player atirar 
 fire();
-
-show_debug_message(life);

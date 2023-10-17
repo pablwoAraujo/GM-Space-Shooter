@@ -212,6 +212,11 @@
 		27.3.2 - Criando um intervalo entre os tiros - [DONE]
 		27.3.3 - Criando um método para o estado um - [DONE]
 		27.3.4 - Fazendo o boss trocar de estado depois de um tempo - [DONE]
-	27.4 - Criando o segundo estado do boss - [TODO]
+	27.4 - Criando o segundo estado do boss - [DONE]
+		27.4.1 - Fazendo o boss dar o tiro um dos dois canhões ao mesmo tempo - [DONE]
+		27.4.2 - Criando um intervalo entre os tiros - [DONE]
+		27.4.3 - Fazendo o boss se mover para os lados - [DONE]
+		27.4.4 - Separando o código em um método - [DONE]
+	27.5 - Criando o terceiro estado do boss - [TODO]
 	
 28 - Animação da chegada do boss - [TODO]
