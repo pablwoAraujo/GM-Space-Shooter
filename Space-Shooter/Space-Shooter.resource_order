@@ -24,6 +24,8 @@
     {"name":"others","order":5,"path":"folders/Sprites/others.yy",},
     {"name":"player","order":7,"path":"folders/Sprites/player.yy",},
     {"name":"power_up","order":9,"path":"folders/Sprites/power_up.yy",},
+    {"name":"boss","order":10,"path":"folders/Sprites/boss.yy",},
+    {"name":"boss","order":12,"path":"folders/Objetos/boss.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_enemy_slug","order":2,"path":"objects/obj_enemy_slug/obj_enemy_slug.yy",},

@@ -203,3 +203,15 @@
 	26.3 - Fazendo os inimigos droparem item depois de certa altura - [DONE]
 	26.4 - Aumentando a quantidade de pontos (subir de nível mais rápido) - [DONE]
 	26.5 - Ganhar pontos caso os powerups já estejam no nível máximo - [DONE]
+	
+27 - BOSS - [DOING]
+	27.1 - Importando as sprites e criando o objeto - [DONE]
+	27.2 - Definindo os estados do boss - [DONE]
+	27.3 - Criando o primeiro estado (criar o tiro 2 enquanto ele fica parado) - [DONE]
+		27.3.1 - Fazendo o boss criar o tiro dois - [DONE]
+		27.3.2 - Criando um intervalo entre os tiros - [DONE]
+		27.3.3 - Criando um método para o estado um - [DONE]
+		27.3.4 - Fazendo o boss trocar de estado depois de um tempo - [DONE]
+	27.4 - Criando o segundo estado do boss - [TODO]
+	
+28 - Animação da chegada do boss - [TODO]
