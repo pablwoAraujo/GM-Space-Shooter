@@ -217,6 +217,11 @@
 		27.4.2 - Criando um intervalo entre os tiros - [DONE]
 		27.4.3 - Fazendo o boss se mover para os lados - [DONE]
 		27.4.4 - Separando o código em um método - [DONE]
-	27.5 - Criando o terceiro estado do boss - [TODO]
-	
+	27.5 - Criando o terceiro estado do boss - [DONE]
+		27.5.1 - Criando o tiro dois no dobro do tempo de espera - [DONE]
+		27.5.2 - Criando o tiro um dos canhões laterais - [DONE]
+		27.5.3 - Criando o tiro um e o tiro dois em tempos diferentes - [DONE]
+		27.5.4 - Separando o código em um método - [DONE]
+	27.6 - Criar a vida do boss - [TODO]
+
 28 - Animação da chegada do boss - [TODO]
