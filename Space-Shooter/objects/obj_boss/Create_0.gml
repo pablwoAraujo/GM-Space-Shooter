@@ -10,7 +10,7 @@ STATE 04: Ficar invulnerável enquanto cria duas naves que vão recuperar sua vi
 */
 i = 0;
 // Estado inicial do boss
-current_state = "state 02";
+current_state = "state 01";
 
 // Tempo de espera entre os tiros
 shot_cooldown = 60;
@@ -25,6 +25,17 @@ _state_cooldown = state_cooldown;
 // Velocidade horizontal
 _hspeed = 3;
 
+shot_01 = function() {
+	instance_create_layer(x, y + 80, "Shots", obj_enemy_slug_shot);
+}
+
+shot_02 = function(_left) {
+	var _posx = 160;
+	if (_left) _posx *= -1;
+	
+	instance_create_layer(x + _posx, y + 50, "Shots", obj_enemy_shot);
+}
+
 /// @method state_01()
 state_01 = function(){ // Código do estado um
 	// diminui o valor da espera do tiro
@@ -32,7 +43,7 @@ state_01 = function(){ // Código do estado um
 	
 	// Se a espera for zero ele cria o tiro dois
 	if (_shot_cooldown <= 0) {
-		instance_create_layer(x, y + 80, "Shots", obj_enemy_slug_shot);
+		shot_01();
 		// Após atirar ele adiciona o tempo de espera
 		_shot_cooldown = shot_cooldown;
 	}
@@ -53,8 +64,43 @@ state_02 = function(){ // Código do estado dois
 	
 	// Se a espera for zero ele cria o tiro dois
 	if (_shot_cooldown <= 0) {
-		instance_create_layer(x-160, y + 50, "Shots", obj_enemy_shot);
-		instance_create_layer(x+160, y + 50, "Shots", obj_enemy_shot);
+		shot_02(true);
+		shot_02(false);
 		_shot_cooldown = shot_cooldown;
 	}
+}
+
+/// @method state_03()
+state_03 = function(){ // Código do estado três
+	// diminui o valor da espera do tiro
+	_shot_cooldown --;
+	
+	// Se a espera for zero ele cria o tiro um
+	if (_shot_cooldown <= 0) {
+		shot_01();
+		// Após atirar ele adiciona o tempo de espera
+		_shot_cooldown = shot_cooldown * 2;
+	}
+	
+	// Se a espera for o tempo de cooldown ele cria o tiro dois na esquerda
+	if (_shot_cooldown == shot_cooldown) {
+		shot_02(false);
+	}
+	
+	// Se a espera for o tempo de cooldown ele cria o tiro dois na direita
+	if (_shot_cooldown == round(shot_cooldown*1.5)) {
+		shot_02(true);
+	}
+}
+
+estado_sequencial = function() {
+	if (i==0){
+		current_state = "state 01";
+	} else if (i==1){
+		current_state = "state 02";
+	} else {
+		current_state = "state 03";
+	}
+	i++;
+	i = i%3;	
 }
