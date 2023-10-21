@@ -10,6 +10,8 @@ _left = keyboard_check(ord("A"));
 _down = keyboard_check(ord("S"));
 _right = keyboard_check(ord("D"));
 
+var _x = keyboard_check(ord("X"));
+
 // Criando o escudo
 create_shield();
 
