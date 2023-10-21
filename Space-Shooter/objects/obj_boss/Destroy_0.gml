@@ -1,8 +1,5 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-// Criando a explosão
-instance_create_layer(x, y, layer, obj_explosion);
-
-// Criando o screenshake ao ser destruído
-screenshake(100);
+// Criando a sequência de destruição
+layer_sequence_create("Boss_Defeat", x, room_height/2 - 32, seq_boss_defeat);

@@ -81,6 +81,7 @@
     {"id":{"name":"spr_octopus_shot_glow","path":"sprites/spr_octopus_shot_glow/spr_octopus_shot_glow.yy",},},
     {"id":{"name":"obj_player_shot_level_2","path":"objects/obj_player_shot_level_2/obj_player_shot_level_2.yy",},},
     {"id":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},},
+    {"id":{"name":"seq_boss_defeat","path":"sequences/seq_boss_defeat/seq_boss_defeat.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},

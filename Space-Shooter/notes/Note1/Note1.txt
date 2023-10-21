@@ -255,3 +255,10 @@
 	28.1 - Criando a animação de chegada - [DONE]
 	28.2 - Destruindo a sequence no final da animação - [DONE]
 	28.3 - Criando a instância do boss depois que destruir a sequence - [DONE]
+29 - Fazendo a animação da derrota do boss - [DONE]
+	29.1 - Criar a sequencia - [DONE]
+	29.2 - Criar várias explosões pelo boss - [DONE]
+	29.3 - Fazendo o boss "cair" da tela - [DONE]
+	29.4 - Fazendo o boss criar a animação ao ser destruido - [DONE]
+
+352 - Criando a animação de morte do boss
