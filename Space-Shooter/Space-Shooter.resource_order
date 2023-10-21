@@ -32,6 +32,7 @@
     {"name":"spr_explosion","order":1,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"obj_control","order":8,"path":"objects/obj_control/obj_control.yy",},
     {"name":"spr_extra_background_02","order":2,"path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},
+    {"name":"seq_boss_arrival","order":1,"path":"sequences/seq_boss_arrival/seq_boss_arrival.yy",},
     {"name":"spr_enemy_octopus","order":1,"path":"sprites/spr_enemy_octopus/spr_enemy_octopus.yy",},
     {"name":"obj_view_statics","order":10,"path":"objects/obj_view_statics/obj_view_statics.yy",},
     {"name":"obj_enemy_slug_shot","order":3,"path":"objects/obj_enemy_slug_shot/obj_enemy_slug_shot.yy",},

@@ -251,8 +251,7 @@
 			27.7.17.3 - Fazendo com que o boss ative o estado 04 quando a vida atual for menor que um terço - [DONE]
 		27.7.18 - Criando o método do estado 04 - [DONE]
 		27.7.19 - Fazendo o boss ir lentamente para o meio da tela - [DONE]
-28 - Animação da chegada do boss - [TODO]
-
-
-343 - Resolução do desafio
-https://noneclass.club.hotmart.com/t/page/Z72rdZbJ7N
+28 - Animação da chegada do boss - [DONE]
+	28.1 - Criando a animação de chegada - [DONE]
+	28.2 - Destruindo a sequence no final da animação - [DONE]
+	28.3 - Criando a instância do boss depois que destruir a sequence - [DONE]

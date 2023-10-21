@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "screenshake",
+  "name": "utils",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

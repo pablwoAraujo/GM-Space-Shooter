@@ -13,4 +13,4 @@ if (instance_exists(obj_control)){
 drop_item(chance_to_drop_item);
 
 // Criando o screenshake ao ser destruído
-screenshake(10);
+utils(10);

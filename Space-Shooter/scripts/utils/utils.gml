@@ -10,3 +10,10 @@ function giving_points(_points){
 		obj_control.add_points(_points);	
 	}
 }
+
+function destroy_sequence(){
+	var _elements = layer_get_all_elements("Boss_Sequence");
+	layer_sequence_destroy(_elements[0]);
+	
+	instance_create_layer(960, 256, "Boss", obj_boss);
+}

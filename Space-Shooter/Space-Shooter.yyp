@@ -47,10 +47,11 @@
   "resources": [
     {"id":{"name":"obj_enemy_slug","path":"objects/obj_enemy_slug/obj_enemy_slug.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
-    {"id":{"name":"screenshake","path":"scripts/screenshake/screenshake.yy",},},
+    {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"spr_extra_background_02","path":"sprites/spr_extra_background_02/spr_extra_background_02.yy",},},
     {"id":{"name":"spr_shot_impact","path":"sprites/spr_shot_impact/spr_shot_impact.yy",},},
+    {"id":{"name":"seq_boss_arrival","path":"sequences/seq_boss_arrival/seq_boss_arrival.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_enemy_octopus","path":"sprites/spr_enemy_octopus/spr_enemy_octopus.yy",},},
     {"id":{"name":"spr_enemy_big_shot","path":"sprites/spr_enemy_big_shot/spr_enemy_big_shot.yy",},},

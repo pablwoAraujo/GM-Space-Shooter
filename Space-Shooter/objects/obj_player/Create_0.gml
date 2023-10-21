@@ -104,7 +104,7 @@ take_damage = function(){
 	// Só perde vida se o escudo não estiver ativo;
 	if (!active_shield){
 		// Criando o screenshake ao tomar dano
-		screenshake(10);
+		utils(10);
 
 		if (life > 1) {
 			life --;	
