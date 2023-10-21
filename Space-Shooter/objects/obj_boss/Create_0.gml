@@ -8,9 +8,14 @@ STATE 02: Movendo e dando o tiro um
 STATE 03: Parado intercalando o tiro um e dois
 STATE 04: Ficar invulnerável enquanto cria duas naves que vão recuperar sua vida
 */
-i = 0;
+
 // Estado inicial do boss
 current_state = "state 01";
+available_minions = true; 
+
+// Iniciando o sistema de vida
+maximum_life = 2000;
+current_life = maximum_life/3;
 
 // Tempo de espera entre os tiros
 shot_cooldown = 60;
@@ -37,7 +42,7 @@ shot_02 = function(_left) {
 }
 
 /// @method state_01()
-state_01 = function(){ // Código do estado um
+state_01 = function() { // Código do estado um
 	// diminui o valor da espera do tiro
 	_shot_cooldown --;
 	
@@ -50,7 +55,7 @@ state_01 = function(){ // Código do estado um
 }
 
 /// @method state_02()
-state_02 = function(){ // Código do estado dois
+state_02 = function() { // Código do estado dois
 	// diminui o valor da espera do tiro
 	_shot_cooldown --;
 	
@@ -71,7 +76,7 @@ state_02 = function(){ // Código do estado dois
 }
 
 /// @method state_03()
-state_03 = function(){ // Código do estado três
+state_03 = function() { // Código do estado três
 	// diminui o valor da espera do tiro
 	_shot_cooldown --;
 	
@@ -93,14 +98,64 @@ state_03 = function(){ // Código do estado três
 	}
 }
 
-estado_sequencial = function() {
-	if (i==0){
-		current_state = "state 01";
-	} else if (i==1){
-		current_state = "state 02";
-	} else {
-		current_state = "state 03";
+/// @method state_04()
+state_04 = function() { // Código do estado quatro
+	// Trocando a sprite
+	sprite_index = spr_boss_special_state;
+
+	// Indo para o meio da tela
+	x += sign(room_width/2 - x);
+
+	// Verificando se é a primeira vez que o boss entra neste estado
+	if (available_minions){
+		// Garantindo que o boss não entre novamente no estado 04
+		available_minions = false;
+
+		// Criando o minion da esquerda
+		var _minion = instance_create_layer(128, 672, "Enemies", obj_boss_minion);
+		_minion.image_angle = 90;
+
+		// Criando o minion da direita
+		_minion = instance_create_layer(1760, 672, "Enemies", obj_boss_minion);
+		_minion.image_angle = 270;
 	}
-	i++;
-	i = i%3;	
+}
+
+// Método responsável por controlar as mudanças de estado do boss
+/// @method changing_state()
+changing_state = function() {
+	// Debug estado atual
+	// show_debug_message(string_concat("current_state: ", current_state));
+
+	// Diminuindo o tempo de espera para mudar o estado
+	_state_cooldown--;
+
+	// Se o tempo de esperar chegar ao fim ele vai selecionar outro estado
+	if (_state_cooldown <= 0) {
+		// Se o boss perder 2/3 da vida e ainda não tiver entrado no estado 04 ele entra no estado 04
+		if (current_life < maximum_life/3 and available_minions) {
+			current_state = "state 04";
+		} else {
+			// Seleciona um estado aleatoriamente
+			current_state = choose("state 01", "state 02", "state 03");
+			// Se já tiver passado pelo estado 04
+			if (!available_minions) {
+				// Verifique se há instancias do objeto minion e destrua
+				if (instance_exists(obj_boss_minion)) instance_destroy(obj_boss_minion);	
+			}
+		}
+		// Reseta o countdown para a troca de estado
+		_state_cooldown = state_cooldown;
+	}
+	
+	// Executando o código de cada estado
+	if (current_state == "state 01") {
+		state_01();
+	} else if (current_state == "state 02") {
+		state_02();
+	} else if (current_state == "state 03") {
+		state_03();
+	} else if (current_state == "state 04") {
+		state_04();
+	}
 }

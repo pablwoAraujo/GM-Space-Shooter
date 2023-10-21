@@ -3,7 +3,8 @@
 
 // Se voltar para o indice zero, ele é destruído
 if (image_index == 0){
-	instance_destroy();	
+	target.active_shield = false;
+	instance_destroy();
 }
 // Avançando a animação do escudo se desgastando
 image_index --;

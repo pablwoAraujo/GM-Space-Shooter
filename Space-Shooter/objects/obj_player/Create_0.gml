@@ -13,8 +13,10 @@ shot_level = 1;
 // Vida
 life = 3;
 
-// Quantidade de escudos
-shields = 3;
+// Escudo
+shields = 3; // Quantidade de escudos
+active_shield = false;  // Se o escudo esta ativo
+invulnerable = false;
 
 // Atirando
 fire = function() {
@@ -96,14 +98,47 @@ upgrade = function(_value){
 	}
 }
 
+// Função para dar dano no player
 ///@method take_damage();
 take_damage = function(){
-	// Criando o screenshake ao tomar dano
-	screenshake(10);
+	// Só perde vida se o escudo não estiver ativo;
+	if (!active_shield){
+		// Criando o screenshake ao tomar dano
+		screenshake(10);
 
-	if (life > 1) {
-		life --;	
-	} else {	
-		instance_destroy();	
+		if (life > 1) {
+			life --;	
+			invulneravel();
+		} else {	
+			instance_destroy();	
+		}
 	}
+}
+
+// Função para criar um escudo no player
+///@method create_shield();
+create_shield = function(){
+	// Checando se a tecla é pressionada
+	var _shield = keyboard_check_pressed(ord("E"));
+
+	if (_shield and !active_shield and shields > 0) {
+		var _player_shield = instance_create_layer(x, y, "Shield", obj_shield);
+		// Definindo o target do escudo
+		_player_shield.target = id;
+
+		// Escudo esta ativo
+		active_shield = true;
+		// Diminuindo a quantidade de escudos disponíveis
+		shields --;
+	}
+}
+
+invulneravel = function() {
+	image_alpha = 0.2;	
+	//var _player_shield = instance_create_layer(x, y, "Shield", obj_shield);
+	//_player_shield.image_index = 2;
+	//_player_shield.target = id;
+	active_shield = true;
+	invulnerable = true;
+	alarm[1] = 120;
 }
