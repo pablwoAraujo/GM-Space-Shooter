@@ -17,6 +17,7 @@ game_score = 0;
 
 // Variável de controle para a sequencia de gameover
 ctr_seq_gameover = noone;
+ctr_level_complete = false;
 
 // Criando a função para atribuir os pontos
 ///@method add_points(points)
@@ -44,7 +45,7 @@ spawn_enemy = function(){
 	}
 	
 	// Aumentando o range conforme o nível do jogo
-	var _y_coordinate = irandom_range(-96, - room_height - (game_level * 500));
+	var _y_coordinate = irandom_range(-96, - room_height - (game_level * 800));
 
 	// Criando o inimigo com base no nível
 	// Quanto maior o nível maior a probabilidade de vir um inimigo tipo 2 (slug)

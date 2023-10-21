@@ -66,6 +66,7 @@
     {"id":{"name":"obj_shield","path":"objects/obj_shield/obj_shield.yy",},},
     {"id":{"name":"obj_minion_shot","path":"objects/obj_minion_shot/obj_minion_shot.yy",},},
     {"id":{"name":"spr_player_shot","path":"sprites/spr_player_shot/spr_player_shot.yy",},},
+    {"id":{"name":"seq_level_end","path":"sequences/seq_level_end/seq_level_end.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},},
     {"id":{"name":"obj_enemy_octopus","path":"objects/obj_enemy_octopus/obj_enemy_octopus.yy",},},

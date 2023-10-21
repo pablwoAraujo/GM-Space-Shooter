@@ -260,6 +260,12 @@
 	29.2 - Criar várias explosões pelo boss - [DONE]
 	29.3 - Fazendo o boss "cair" da tela - [DONE]
 	29.4 - Fazendo o boss criar a animação ao ser destruido - [DONE]
-30 - Ajustes gerais
-	30.1 - Melhorando o drop de powerups nos niveis iniciais
-	30.2 - Fazendo com que os inimigos sejam criados mais para o centro da tela
+30 - Ajustes gerais - [DONE]
+	30.1 - Melhorando o drop de powerups nos niveis iniciais - [DONE]
+	30.2 - Fazendo com que os inimigos sejam criados mais para o centro da tela - [DONE]
+	30.3 - Aumentando o espaço para os inimigos surgirem na tela - [DONE]
+	30.4 - Fazendo o tiro do player destruir os tiros inimigos ao colidir - [DONE]
+31 - Animação de conclusão do nível - [DONE]
+	31.1 - Criando a sequencia - [DONE]
+	31.2 - Quando o boss for derrotado e a animação parar, crie a animação - [DONE]
+	31.3 - Destruir o player e não chamar a animação de gameover - [DONE]

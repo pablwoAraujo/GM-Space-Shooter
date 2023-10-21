@@ -44,6 +44,7 @@
     {"name":"obj_shield","order":1,"path":"objects/obj_shield/obj_shield.yy",},
     {"name":"obj_minion_shot","order":2,"path":"objects/obj_minion_shot/obj_minion_shot.yy",},
     {"name":"spr_player_shot","order":1,"path":"sprites/spr_player_shot/spr_player_shot.yy",},
+    {"name":"seq_level_end","order":3,"path":"sequences/seq_level_end/seq_level_end.yy",},
     {"name":"obj_enemy_shot","order":1,"path":"objects/obj_enemy_shot/obj_enemy_shot.yy",},
     {"name":"spr_game_over","order":4,"path":"sprites/spr_game_over/spr_game_over.yy",},
     {"name":"spr_shield","order":1,"path":"sprites/spr_shield/spr_shield.yy",},

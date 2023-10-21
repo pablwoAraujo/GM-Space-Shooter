@@ -83,19 +83,19 @@ upgrade = function(_value){
 	if (_value > 90) {
 		// Aumentando o nível do tiro se ele for menor que 5 ou ganha 10 pontos vezes o nível como bonus
 		if (shot_level < 5) shot_level++;
-		else giving_points(100*_level);
+		else giving_points(10*_level);
 	} else if (_value > 80) {
 		// Ganha mais um escudo (max 3) ou ganha 10 pontos vezes o nível como bonus
 		if (shields < 3) shields++;
-		else giving_points(100*_level);
+		else giving_points(10*_level);
 	} else if (_value > 40) {
 		// Diminuindo o cooldown do tiro, se ele for maior que 20 ou ganha 10 pontos vezes o nível como bonus
 		if (shot_cooldown > 20) shot_cooldown -= 4;
-		else giving_points(100*_level);
+		else giving_points(10*_level);
 	} else {
 		// Aumentando a velocidade do player se ela for menor que 10 ou ganha 10 pontos vezes o nível como bonus
 		if (player_speed < 10 ) player_speed += 0.5;
-		else giving_points(100*_level);
+		else giving_points(10*_level);
 	}
 }
 
