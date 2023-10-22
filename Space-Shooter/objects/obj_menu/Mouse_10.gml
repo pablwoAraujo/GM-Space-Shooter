@@ -1,5 +1,5 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-//image_blend = c_green;
+// Trocando a sprite
 image_index = 1;

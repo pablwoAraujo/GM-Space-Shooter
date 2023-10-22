@@ -62,5 +62,6 @@
     {"name":"obj_explosion","order":1,"path":"objects/obj_explosion/obj_explosion.yy",},
     {"name":"spr_extra_background_01","order":1,"path":"sprites/spr_extra_background_01/spr_extra_background_01.yy",},
     {"name":"obj_screenshake","order":11,"path":"objects/obj_screenshake/obj_screenshake.yy",},
+    {"name":"obj_transition","order":14,"path":"objects/obj_transition/obj_transition.yy",},
   ],
 }
