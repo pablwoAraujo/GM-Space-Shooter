@@ -1,2 +1,2 @@
 text = "Start";
-destination = rm_play;
+destination = rm_game;

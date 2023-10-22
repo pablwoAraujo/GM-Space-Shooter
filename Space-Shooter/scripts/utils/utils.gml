@@ -6,8 +6,8 @@ function screenshake(_intensity){
 }
 
 function giving_points(_points) {
-	if (instance_exists(obj_control)) {
-		obj_control.add_points(_points);	
+	if (instance_exists(obj_game_control)) {
+		obj_game_control.add_points(_points);	
 	}
 }
 
@@ -23,9 +23,16 @@ function create_sequence() {
 		layer_sequence_create("Sequences", obj_player.x, obj_player.y, seq_level_end);
 
 		// Destruindo o player
-		instance_destroy(obj_player);
+		instance_destroy(obj_player, false);
 		
 		// Avisando para o controle do jogo que o level foi completo
-		obj_control.ctr_level_complete = true;
+		obj_game_control.ctr_level_complete = true;
 	}
+}
+
+function back_to_menu() {
+	// Criando o objeto que vai fazer a transição entre as rooms
+	var _obj_transition = instance_create_layer(0, 0, "Sequences", obj_transition);
+	// Definindo a room de destino
+	_obj_transition.destination = rm_start;
 }

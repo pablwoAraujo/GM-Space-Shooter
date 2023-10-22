@@ -3,3 +3,6 @@
 
 // Criando a explosão
 instance_create_layer(x, y, layer, obj_explosion);
+
+// Contabilizando as mortes do player
+global.total_deaths++;

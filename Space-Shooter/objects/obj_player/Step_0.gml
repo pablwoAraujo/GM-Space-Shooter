@@ -11,7 +11,7 @@ _down = keyboard_check(ord("S"));
 _right = keyboard_check(ord("D"));
 
 var _x = keyboard_check(ord("X"));
-
+if (_x) obj_game_control.add_points(5000);
 // Criando o escudo
 create_shield();
 

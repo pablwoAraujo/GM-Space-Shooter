@@ -21,7 +21,11 @@
   "moments": {
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion": "1.0",
-    "Keyframes": [],
+    "Keyframes": [
+      {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
+              "back_to_menu",
+            ],},},"Disabled":false,"id":"2cb6f0cf-5ea7-49f5-a0ba-7ea0e1a53b6c","IsCreationKey":false,"Key":119.9998,"Length":1.0,"Stretch":false,},
+    ],
   },
   "parent": {
     "name": "Sequências",
@@ -57,7 +61,10 @@
             ],},"modifiers":[],"trackColour":4282930162,"tracks":[],"traits":0,},
       ],"traits":0,},
   ],
-  "visibleRange": null,
+  "visibleRange": {
+    "x": 0.0,
+    "y": 119.9999,
+  },
   "volume": 1.0,
   "xorigin": 0,
   "yorigin": 0,

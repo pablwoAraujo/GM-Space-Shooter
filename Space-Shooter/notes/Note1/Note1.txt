@@ -251,24 +251,29 @@
 			27.7.17.3 - Fazendo com que o boss ative o estado 04 quando a vida atual for menor que um terço - [DONE]
 		27.7.18 - Criando o método do estado 04 - [DONE]
 		27.7.19 - Fazendo o boss ir lentamente para o meio da tela - [DONE]
+		
 28 - Animação da chegada do boss - [DONE]
 	28.1 - Criando a animação de chegada - [DONE]
 	28.2 - Destruindo a sequence no final da animação - [DONE]
 	28.3 - Criando a instância do boss depois que destruir a sequence - [DONE]
+	
 29 - Fazendo a animação da derrota do boss - [DONE]
 	29.1 - Criar a sequencia - [DONE]
 	29.2 - Criar várias explosões pelo boss - [DONE]
 	29.3 - Fazendo o boss "cair" da tela - [DONE]
 	29.4 - Fazendo o boss criar a animação ao ser destruido - [DONE]
+	
 30 - Ajustes gerais - [DONE]
 	30.1 - Melhorando o drop de powerups nos niveis iniciais - [DONE]
 	30.2 - Fazendo com que os inimigos sejam criados mais para o centro da tela - [DONE]
 	30.3 - Aumentando o espaço para os inimigos surgirem na tela - [DONE]
 	30.4 - Fazendo o tiro do player destruir os tiros inimigos ao colidir - [DONE]
+	
 31 - Animação de conclusão do nível - [DONE]
 	31.1 - Criando a sequencia - [DONE]
 	31.2 - Quando o boss for derrotado e a animação parar, crie a animação - [DONE]
 	31.3 - Destruir o player e não chamar a animação de gameover - [DONE]
+	
 32 - Criar a tela inicial do jogo - [DONE]
 	32.1 - Criar a room da tela inicial - [DONE]
 	32.2 - Criar os botões - [DONE]
@@ -278,6 +283,7 @@
 			32.2.3.1 - Centralizar a fonte - [DONE]
 			32.2.3.2 - Personalizar o texto - [DONE]
 	32.3 - Ao clicar no botão, instanciar o objeto transição com o room de destino - [DONE] 
+	
 33 - Criar a transição - [DONE]
 	33.1 - Criar o objeto transition - [DONE]
 	33.2 - Fazendo a tela escurecer - [DONE]
@@ -286,4 +292,18 @@
 	33.5 - Fazendo ela se destruir depois que trocar de room e a animação estiver terminada - [DONE]
 	33.6 - Personaliazr a room de destino com variáveis - [DONE]
 	33.x - Adicionando a transição no gameover, quando o player teclar "ENTER" - [DONE]
-34 - Criar a tela de pontuação - [TODO]
+	
+34 - Criar a tela de pontuação - [DONE]
+	34.1 - Criando um sistema para guardar os pontos feitos pelo jogador - [DONE]
+		34.1.1 - Criando uma nova room para inicializar as variáveis globais - [DONE]
+		34.1.2 - Garantindo que o viewport da nova room esteja correto - [DONE]
+		34.1.3 - Inicializando as variáveis globais - [DONE]
+		34.1.4 - Indo para a próxima room - [DONE]
+	34.2 - Salvando os pontos na variável global se os pontos atuais forem maior que a maior pontuação - [DONE]
+	34.3 - Contabilizando os inimigos mortos - [DONE]
+	34.4 - Contabilizando o número de vezes que o player perdeu o jogo - [DONE]
+	34.5 - Ganhando pontos ao matar o boss - [DONE]
+	34.6 - Garantindo que o objeto control vai atualizar os pontos do player - [DONE]
+	34.7 - Exibindo os pontos na tela - [DONE]
+	34.8 - Criando botão de voltar para o menu - [DONE]
+	

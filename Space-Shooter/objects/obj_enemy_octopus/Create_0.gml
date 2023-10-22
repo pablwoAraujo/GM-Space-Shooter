@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 // Chance de dropar um power up
-chance_to_drop_item = round(100/obj_control.game_level);
+chance_to_drop_item = round(100/obj_game_control.game_level);
 
 // Velocidade vertical do inimigo
 vspeed = 3;

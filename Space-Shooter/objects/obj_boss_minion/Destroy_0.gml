@@ -5,4 +5,7 @@
 instance_create_layer(x, y, layer, obj_explosion);
 
 // Criando o screenshake ao ser destruído
-utils(20);
+screenshake(20);
+
+// Contabilizando o número de inimigos mortos
+global.total_enemies_killed++;

@@ -17,4 +17,4 @@ fire = function() {
 
 points_give = 20;
 
-chance_to_drop_item = round((100/obj_control.game_level)*2);
+chance_to_drop_item = round((100/obj_game_control.game_level)*2);
