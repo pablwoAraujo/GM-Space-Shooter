@@ -1,15 +1,15 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room1",
+  "name": "rm_play",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_77DD85E8","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_46AF9E86","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_260EA465","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_77DD85E8","path":"rooms/rm_play/rm_play.yy",},
+    {"name":"inst_46AF9E86","path":"rooms/rm_play/rm_play.yy",},
+    {"name":"inst_260EA465","path":"rooms/rm_play/rm_play.yy",},
   ],
   "isDnd": false,
   "layers": [
