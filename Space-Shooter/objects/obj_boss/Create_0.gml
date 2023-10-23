@@ -21,7 +21,7 @@ maximum_life = 2000;
 current_life = maximum_life;
 
 // Tempo de espera entre os tiros
-shot_cooldown = 60;
+shot_cooldown = 45;
 // Contagem regressiva para atirar
 _shot_cooldown = shot_cooldown;
 
@@ -117,6 +117,7 @@ state_04 = function() { // Código do estado quatro
 
 	// Verificando se é a primeira vez que o boss entra neste estado
 	if (available_minions){
+		shot_cooldown = 30;
 		// Garantindo que o boss não entre novamente no estado 04
 		available_minions = false;
 

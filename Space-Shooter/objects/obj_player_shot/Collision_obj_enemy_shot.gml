@@ -3,4 +3,6 @@
 
 // instance_destroy();
 
-instance_destroy(other);
+if (!instance_exists(obj_boss)){
+	instance_destroy(other);	
+}
