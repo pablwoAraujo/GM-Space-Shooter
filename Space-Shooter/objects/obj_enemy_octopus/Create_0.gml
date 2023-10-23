@@ -15,6 +15,9 @@ fire = function() {
 	// Se o inimigo estiver na tela do player atire
 	if (y > 0){
 		instance_create_layer(x - 3, y + (sprite_height/3), "Shots", obj_enemy_shot);
+
+		// Som do tiro
+		audio_play_sound(snd_laser1, 1, 0);
 	}
 }
 

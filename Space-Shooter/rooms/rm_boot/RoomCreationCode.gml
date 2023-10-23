@@ -1,6 +1,9 @@
 // Create da room - Ou seja, vai rodar SEMPRE que a room é criada
 // Iniciando as variáveis globais
 
+// Garantindo que o jogo seja aleatório
+randomize()
+
 // Pontuação mais alta
 global.highest_score = 0;
 

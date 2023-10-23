@@ -3,3 +3,5 @@
 
 instance_destroy();
 
+// Som do tiro batendo no escudo
+audio_play_sound(snd_two_tone, 1, 0);

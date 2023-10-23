@@ -5,7 +5,7 @@
 if (current_state != "state 04") {
 	// Perdendo um de vida
 	if (current_life > 0){
-		current_life -=20;
+		current_life -= 4;
 	} else {
 		instance_destroy();
 	}

@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-var _life = 5;
+var _life = 3;
 
 if (current_life + _life <= maximum_life){
 	current_life += _life;	

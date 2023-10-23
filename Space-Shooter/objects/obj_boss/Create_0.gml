@@ -9,13 +9,16 @@ STATE 03: Parado intercalando o tiro um e dois
 STATE 04: Ficar invulnerável enquanto cria duas naves que vão recuperar sua vida
 */
 
+// Tocando a música do boss
+audio_play_sound(snd_aggressor, 1, 1);
+
 // Estado inicial do boss
 current_state = "state 01";
 available_minions = true; 
 
 // Iniciando o sistema de vida
 maximum_life = 2000;
-current_life = maximum_life/3;
+current_life = maximum_life;
 
 // Tempo de espera entre os tiros
 shot_cooldown = 60;
@@ -32,6 +35,9 @@ _hspeed = 3;
 
 shot_01 = function() {
 	instance_create_layer(x, y + 80, "Shots", obj_enemy_slug_shot);
+
+	// Som do tiro
+	audio_play_sound(snd_laser1, 1, 0);
 }
 
 shot_02 = function(_left) {
@@ -39,6 +45,9 @@ shot_02 = function(_left) {
 	if (_left) _posx *= -1;
 	
 	instance_create_layer(x + _posx, y + 50, "Shots", obj_enemy_shot);
+
+	// Som do tiro
+	audio_play_sound(snd_laser2, 1, 0);
 }
 
 /// @method state_01()

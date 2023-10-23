@@ -15,6 +15,9 @@ if (!instance_exists(obj_enemy_octopus)){
 		if (boss_fight) {
 			layer_sequence_create("Boss_Sequence", 960, 512, seq_boss_arrival);
 			boss_fight = false;
+			
+			// Parando a música de fundo
+			audio_stop_all();
 		}
 	}
 	

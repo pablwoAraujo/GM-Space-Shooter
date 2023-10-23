@@ -307,3 +307,15 @@
 	34.7 - Exibindo os pontos na tela - [DONE]
 	34.8 - Criando botão de voltar para o menu - [DONE]
 	34.9 - Ao exibir os pontos, começar com 0 e ir incrementando até a pontuação máxima - [DONE]
+
+35 - Adicionando os sons no jogo - [DOING]
+	35.1 - Importando todos os sons do jogo - [DONE]
+	35.2 - Criando o som da explosão quando o obj_explosion for criado - [DONE]
+	35.3 - Criando o som do tiro sempre que o player atirar - [DONE]
+	35.4 - Criando o som do tiro sempre que o boss atirar - [DONE]
+	35.6 - Criando os sons do escudo do player - [DONE] 
+	35.7 - Criando o som de gameover - [DONE]
+	35.8 - Criando o som do tiro batendo no escudo - [DONE]
+	35.9 - Tocando a música do jogo quando a room iniciar - [DONE]
+	35.10 - Trocando para a música da boss fight quando o evento começar - [DONE]
+	 

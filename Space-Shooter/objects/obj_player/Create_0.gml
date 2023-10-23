@@ -43,6 +43,9 @@ fire = function() {
 			fire_shot_level_two();
 			fire_shot_level_four();
 		}
+		
+		// Som do tiro
+		audio_play_sound(snd_laser2, 1, 0);
 	}
 }
 
