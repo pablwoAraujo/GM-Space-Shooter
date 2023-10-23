@@ -306,4 +306,4 @@
 	34.6 - Garantindo que o objeto control vai atualizar os pontos do player - [DONE]
 	34.7 - Exibindo os pontos na tela - [DONE]
 	34.8 - Criando botão de voltar para o menu - [DONE]
-	
+	34.9 - Ao exibir os pontos, começar com 0 e ir incrementando até a pontuação máxima - [DONE]
